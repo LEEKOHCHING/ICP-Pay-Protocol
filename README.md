@@ -1,5 +1,5 @@
-# ICP-Pay-Protocol
-A standardized Payment QR Code protocol built on the Internet Computer (ICP)
+# IC-Pay-Protocol
+A standardized Payment QR Code protocol built on the Internet Computer (IC)
 
 **1. Background**
    
