@@ -27,7 +27,7 @@ Standardized fields ：
 ```
 recipient: Recipient wallet address.
 
-token: Type of token used for payment.
+ledger: The ID of the ledger canister used for payment.
 
 amount: Transaction amount.
 
@@ -36,7 +36,7 @@ memo: Optional memo information.
 
 ```vb.net
 icp:<recipient>
-      ?token=<token>
+      ?ledger=<ledger>
       &amount=<amount>
       &memo=<memo>
 ```
@@ -44,12 +44,12 @@ icp:<recipient>
 Examples
 ```vb.net
 URL describing a transfer request for 1 ICP.
-icp:xqvwn-5i4pu-uru5o-igwdh-kum5m-5cms5-5mfj6-duaui-o7lan-hcicc-5qe?token=icp&amount=1&memo=OrderId12345
+icp:xqvwn-5i4pu-uru5o-igwdh-kum5m-5cms5-5mfj6-duaui-o7lan-hcicc-5qe?ledger=ryjl3-tyaaa-aaaaa-aaaba-cai&amount=1&memo=OrderId12345
 ```
 
 ```vb.net
 URL describing a transfer request for 1,000 FPL.(IRCR Token)
-icp:xqvwn-5i4pu-uru5o-igwdh-kum5m-5cms5-5mfj6-duaui-o7lan-hcicc-5qe?token=fpl&amount=1000&memo=OrderId12345
+icp:xqvwn-5i4pu-uru5o-igwdh-kum5m-5cms5-5mfj6-duaui-o7lan-hcicc-5qe?ledger=ddsp7-7iaaa-aaaaq-aacqq-cai&amount=1000&memo=OrderId12345
 ```
 
 ![本地图片](https://github.com/LEEKOHCHING/ICP-Pay-Protocol/blob/main/icppay.png)
